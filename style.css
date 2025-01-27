@@ -1,0 +1,119 @@
+.anton-regular {
+    font-family: "Anton", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    color: brown;
+    
+  }
+  @media only screen and(max-width:900px){
+    .manage{
+        margin-right:50px;
+    }
+  }
+
+body{
+
+  padding:50px;
+  margin-left: 50px;
+  margin-top: 50px;
+  font-family: 'Anton', sans-serif;
+}
+.row{
+  padding:30px;
+}
+.row1{
+  padding:50px;
+  display: flex;
+  margin: auto;
+  margin-right: -100px ;
+}
+.navbar{
+  height: 20px;
+  border-color: 2px solid black;
+  text-align: center;
+}
+.contact{
+  margin-top:-50px;
+  color: rgb(68, 166, 209);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-bottom: 50px;
+}
+.p1{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  margin-top: 50px;
+}
+.p11{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: 500;
+  color: rgb(56, 220, 59);
+}
+.home-section {
+  padding: 50px 0;
+}
+
+.fruit-card {
+  margin: 20px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.fruit-card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.fruit-card h4 {
+  margin-top: 15px;
+  font-size: 1.2rem;
+}
+
+.fruit-card p {
+  color: #601d9f;
+}
+
+.fruit-card button {
+  margin-top: 10px;
+  transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.fruit-card button:hover {
+  transform: scale(1.1);
+  background-color: #007bff;
+  color: white;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.fruit-card:hover {
+  transform: translateY(-10px);
+}
+
+.animate__animated {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+
+.animate__fadeIn {
+  animation-name: fadeIn;
+}
+
+@keyframes fadeIn {
+  from {
+      opacity: 0;
+  }
+  to {
+      opacity: 1;
+  }
+}
+
+.icon{
+  background-color: rgb(244, 237, 237);
+  align-items: center;
+  
+}
